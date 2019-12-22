@@ -397,7 +397,7 @@ function countTotals() {
 }
 
 function setupRegionTables() {
-	$.getJSON("http://localhost:8080/data.json")
+	$.getJSON("data.json")
 	.done(function( data ) {
 		globalData = data;
 		for( let i = 0; i<globalData.regions.length; ++i ) {
