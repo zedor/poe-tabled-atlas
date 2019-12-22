@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GGG doesn't care</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/jquery.loadTemplate.min.js"></script>
+<script src="js/script.js"></script>
+<!-- <script type="text/javascript" src="data.json"></script> -->
+</head>
+<body>
+	<div class="region-content" id="content-column-1">
+	</div>
+	<div class="region-content" id="content-column-2">
+	</div>
+	<div class="additional-content">
+		<table class="table table-sm table-dark">
+			<thead>
+				<tr class="table-header">
+					<th colspan = 2>Settings</th>
+					<th class = "table-collapse-icon"><span>-</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan = 2>Hide unobtainable maps</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingHideUnobtainable" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Hide completed maps</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingHideCompleted" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Lock completion</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingLockCompletion" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Color completed maps</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingColorCompleted" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Alphabetic ordering</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingAlphaSort" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Column delimiter</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingColumnDelimiter" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Striped tables</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingStripedTables" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 2>Smaller font</td>
+					<td class = "settings-checkbox"><input type="checkbox" name = "settingSmallFont" onchange = "changeSettings(this, false)"></td>
+				</tr>
+				<tr>
+					<td colspan = 3>Reset browser data <input type="button" value="Clear localStorage" onclick="clearLocalStorage()"></td>
+				</tr>
+				<tr>
+					<td colspan = 3>Use <a href="https://github.com/zedor/poe-tabled-atlas-chrome-ext/releases">chrome extension</a> or <a href="https://github.com/zedor/poe-map-grabber/releases">AHK script to get data.</a></td>
+				</tr>
+				<tr>
+					<td colspan = 3>Map data pulled from <a href="https://poedb.tw/us/">poedb.tw</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table table-sm table-dark table-export">
+			<thead>
+				<tr class="table-header">
+					<th colspan = 4>Query / Import / Export</th>
+					<th class = "table-collapse-icon"><span>-</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="radio-row">
+					<td colspan = 5><input type="radio" name="action" value="query" onchange = "changeAction(this, 'query')" checked><span class = "cant-touch-this" onclick = "changeAction(this, 'query')"> Query </span><input type="radio" name="action" value="import" onchange = "changeAction(this, 'import')"><span class = "cant-touch-this" onclick = "changeAction(this, 'import')"> Import </span><input type="radio" name="action" value="export" onchange = "changeAction(this, 'export')"><span class = "cant-touch-this" onclick = "changeAction(this, 'export')"> Export </span> <input type="button" value="Toggle Tiers" onclick="toggleTiers()"></td>
+				<tr>
+				<tr id="status bar">
+					<td colspan = 5><span id = "statusText"></span></td>
+				</tr>
+				<tr id="query-row">
+					<td class = "login-button" colspan = 5 >Account: <input type="text"  id = "accountInput"> <input type="button" value="Query" onclick="queryData()"></td>
+				</tr>
+				<tr id="select-league-row">
+					<td class = "" colspan = 5 >League: <select name="select-league"><option value="league" selected></option><option value="leaguehc"></option><option value="std"></option><option value="stdhc"></option></select></td>
+				</tr>
+				<tr id="import-row" class = "cant-see-this">
+					<td class = "" colspan = 5 >Data: <input type="text"  id = "stringInput"> <input type="button" value="Import" onclick="importData()"> <input type="button" value="Clear" onclick="clearStringInput()"></td>
+				</tr>
+				<tr id="export-row" class = "cant-see-this" >
+					<td class = "" colspan = 5 ><input type="button" value="Export string to clipboard" onclick="exportData()"></td>
+				</tr>
+				<tr>
+					<td>T1 <input type="checkbox" name = "T1" checked onchange="changeTiers(this)" /></td>
+					<td>T5 <input type="checkbox" name = "T5" checked onchange="changeTiers(this)" /></td>
+					<td>T9 <input type="checkbox" name = "T9" checked onchange="changeTiers(this)" /></td>
+					<td>T13 <input type="checkbox" name = "T13" checked onchange="changeTiers(this)" /></td>
+				</tr>
+				<tr>
+					<td>T2 <input type="checkbox" name = "T2" checked onchange="changeTiers(this)" /></td>
+					<td>T6 <input type="checkbox" name = "T6" checked onchange="changeTiers(this)" /></td>
+					<td>T10 <input type="checkbox" name = "T10" checked onchange="changeTiers(this)" /></td>
+					<td>T14 <input type="checkbox" name = "T14" checked onchange="changeTiers(this)" /></td>
+				</tr>
+				<tr>
+					<td>T3 <input type="checkbox" name = "T3" checked onchange="changeTiers(this)" /></td>
+					<td>T7 <input type="checkbox" name = "T7" checked onchange="changeTiers(this)" /></td>
+					<td>T11 <input type="checkbox" name = "T11" checked onchange="changeTiers(this)" /></td>
+					<td>T15 <input type="checkbox" name = "T15" checked onchange="changeTiers(this)" /></td>
+				</tr>
+				<tr>
+					<td>T4 <input type="checkbox" name = "T4" checked onchange="changeTiers(this)" /></td>
+					<td>T8 <input type="checkbox" name = "T8" checked onchange="changeTiers(this)" /></td>
+					<td>T12 <input type="checkbox" name = "T12" checked onchange="changeTiers(this)" /></td>
+					<td>T16 <input type="checkbox" name = "T16" checked onchange="changeTiers(this)" /></td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table table-sm table-dark">
+			<thead>
+				<tr class="table-header">
+					<th colspan = 4>Maps owned by tiers</th>
+					<th class = "table-collapse-icon"><span>-</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tier 1: <span id = 'owned-tiers-1' ></span></td>
+					<td>Tier 5: <span id = 'owned-tiers-5' ></span></td>
+					<td>Tier 9: <span id = 'owned-tiers-9' ></span></td>
+					<td>Tier 13: <span id = 'owned-tiers-13' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 2: <span id = 'owned-tiers-2' ></span></td>
+					<td>Tier 6: <span id = 'owned-tiers-6' ></span></td>
+					<td>Tier 10: <span id = 'owned-tiers-10' ></span></td>
+					<td>Tier 14: <span id = 'owned-tiers-14' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 3: <span id = 'owned-tiers-3' ></span></td>
+					<td>Tier 7: <span id = 'owned-tiers-7' ></span></td>
+					<td>Tier 11: <span id = 'owned-tiers-11' ></span></td>
+					<td>Tier 15: <span id = 'owned-tiers-15' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 4: <span id = 'owned-tiers-4' ></span></td>
+					<td>Tier 8: <span id = 'owned-tiers-8' ></span></td>
+					<td>Tier 12: <span id = 'owned-tiers-12' ></span></td>
+					<td>Tier 16: <span id = 'owned-tiers-16' ></span></td>
+				</tr>
+			</tbody>
+		<table class="table table-sm table-dark">
+			<thead>
+				<tr class="table-header">
+					<th colspan = 4>Maps in pool by tiers</th>
+					<th class = "table-collapse-icon"><span>-</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tier 1: <span id = 'pool-tiers-1' ></span></td>
+					<td>Tier 5: <span id = 'pool-tiers-5' ></span></td>
+					<td>Tier 9: <span id = 'pool-tiers-9' ></span></td>
+					<td>Tier 13: <span id = 'pool-tiers-13' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 2: <span id = 'pool-tiers-2' ></span></td>
+					<td>Tier 6: <span id = 'pool-tiers-6' ></span></td>
+					<td>Tier 10: <span id = 'pool-tiers-10' ></span></td>
+					<td>Tier 14: <span id = 'pool-tiers-14' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 3: <span id = 'pool-tiers-3' ></span></td>
+					<td>Tier 7: <span id = 'pool-tiers-7' ></span></td>
+					<td>Tier 11: <span id = 'pool-tiers-11' ></span></td>
+					<td>Tier 15: <span id = 'pool-tiers-15' ></span></td>
+				</tr>
+				<tr>
+					<td>Tier 4: <span id = 'pool-tiers-4' ></span></td>
+					<td>Tier 8: <span id = 'pool-tiers-8' ></span></td>
+					<td>Tier 12: <span id = 'pool-tiers-12' ></span></td>
+					<td>Tier 16: <span id = 'pool-tiers-16' ></span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html> 

@@ -1,0 +1,19 @@
+<table class="table table-sm table-hover table-dark table-regions">
+	<thead>
+		<!-- Header: Region Name | Watchstone sockets x 4 | Collapse == STATIC -->
+		<tr class="table-header">
+			<th class = "table-region-name" data-content = "name" colspan = 2></th>
+			<th class = "table-watchstone-socket table-socket"><input type="checkbox" data-id="socket1" onchange="changeSockets(this)"></th>
+			<th class = "table-watchstone-socket table-socket"><input type="checkbox" data-id="socket2" onchange="changeSockets(this)"></th>
+			<th class = "table-watchstone-socket table-socket"><input type="checkbox" data-id="socket3" onchange="changeSockets(this)"></th>
+			<th class = "table-watchstone-socket table-socket"><input type="checkbox" data-id="socket4" onchange="changeSockets(this)"></th>
+			<th class = "table-collapse-icon"><span>-</span></th>
+		</tr>
+	</thead>
+	<tbody data-id="setId">
+		<!-- Desc (literal): Map Name | Tier + Owned | Tag == STATIC -->
+
+		<!-- Content: Map Map | Tier + Owned | Tag  == DYNAMIC -->
+		<!-- <tr class = "table-map-content" data-id="setId"></tr> -->
+	</tbody>
+</table>

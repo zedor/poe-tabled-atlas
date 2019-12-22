@@ -1,0 +1,1141 @@
+{
+    "regions":[
+        {
+            "name":"Haewark Hamlet",
+            "tags":["marble-amulet", "opal-ring"],
+            "maps":[
+                {
+                    "name":"Leyline Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Chateau Map",
+                    "level0":5,
+                    "level1":9,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Grotto Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Conservatory Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Phantasmagoria Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Academy Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":12,
+                    "level4":14,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Vaal Pyramid Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Precinct Map",
+                    "level0":0,
+                    "level1":7,
+                    "level2":12,
+                    "level3":14,
+                    "level4":15
+                },
+                {
+                    "name":"Castle Ruins Map",
+                    "level0":5,
+                    "level1":8,
+                    "level2":12,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Malformation Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":14,
+                    "level4":16,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Terrace Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Shrine Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":14,
+                    "level4":16,
+                    "tag":"indoors_area"
+                },
+                {
+                    "name":"Dig Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                }
+            ]
+        },
+        {
+            "name":"Tirn's End",
+            "tags":["two-toned-boots", "crystal-belt", "steel-ring"],
+            "maps":[
+                {
+                    "name":"Alleyways Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Iceberg Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"City Square Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Strand Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Wharf Map",
+                    "level0":1,
+                    "level1":4,
+                    "level2":8,
+                    "level3":10,
+                    "level4":14
+                },
+                {
+                    "name":"Atoll Map",
+                    "level0":0,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Laboratory Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Tropical Island Map",
+                    "level0":0,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Temple Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Museum Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Cursed Crypt Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Primordial Pool Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Spider Forest Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":14
+                },
+                {
+                    "name":"Waterways Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Necropolis Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Ghetto Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":12,
+                    "level4":14
+                }
+            ]
+        },
+        {
+            "name":"Lex Proxima",
+            "tags":["two-toned-boots-3b", "two-toned-boots-2b", "vermillion-ring"],
+            "maps":[
+                {
+                    "name":"Crystal Ore Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Volcano Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Cemetery Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Dunes Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Bazaar Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Belfry Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Bog Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Arsenal Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Desert Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Haunted Mansion Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Mausoleum Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Fields Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Ashen Wood Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Underground Sea Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Orchard Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Jungle Valley Map",
+                    "level0":1,
+                    "level1":4,
+                    "level2":8,
+                    "level3":10,
+                    "level4":14
+                },
+                {
+                    "name":"Arid Lake Map",
+                    "level0":0,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Port Map",
+                    "level0":0,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Maze Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Ivory Temple Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":14
+                },
+                {
+                    "name":"Coral Ruins Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Residence Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Underground River Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Plateau Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":13,
+                    "level4":16
+                }
+            ]
+        },
+        {
+            "name":"Lex Ejoris",
+            "tags":["convoking-wand", "cerulean-ring"],
+            "maps":[
+                {
+                    "name":"Canyon Map",
+                    "level0":5,
+                    "level1":8,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Caldera Map",
+                    "level0":5,
+                    "level1":8,
+                    "level2":11,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Reef Map",
+                    "level0":5,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Barrows Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Thicket Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Bone Crypt Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Pit Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Arena Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Arachnid Nest Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Shipyard Map",
+                    "level0":0,
+                    "level1":9,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Lair Map",
+                    "level0":0,
+                    "level1":8,
+                    "level2":12,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Core Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Crimson Temple Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Lava Lake Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Carcass Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":16
+                }
+            ]
+        },
+        {
+            "name":"New Vastir",
+            "tags":["blue-pearl-amulet", "vermillion-ring"],
+            "maps":[
+                {
+                    "name":"Basilica Map",
+                    "level0":5,
+                    "level1":9,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Courtyard Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Waste Pool Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Park Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Cage Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Arcade Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Moon Temple Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Courthouse Map",
+                    "level0":0,
+                    "level1":9,
+                    "level2":12,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Summit Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":16
+                },
+                {
+                    "name":"Primordial Blocks Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Acid Caverns Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Sunken City Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":14,
+                    "level4":16
+                }
+            ]
+        },
+        {
+            "name":"Glennach Cairns",
+            "tags":["gripped-gloves", "spiked-gloves", "cerulean-ring"],
+            "maps":[
+                {
+                    "name":"Lava Chamber Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Shore Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Colonnade Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Plaza Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Pen Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":9,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Vault Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Coves Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Racecourse Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Fungal Hollow Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Glacier Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Sulphur Vents Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Ramparts Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Armoury Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Beach Map",
+                    "level0":1,
+                    "level1":4,
+                    "level2":8,
+                    "level3":10,
+                    "level4":14
+                },
+                {
+                    "name":"Dungeon Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Flooded Mine Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":9,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Marshes Map",
+                    "level0":0,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Excavation Map",
+                    "level0":0,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Cells Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":10,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Channel Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Spider Lair Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":14
+                },
+                {
+                    "name":"Infested Valley Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":14
+                }
+            ]
+        },
+        {
+            "name":"Valdo's Rest",
+            "tags":["fingerless-silk-gloves", "vanguard-belt", "opal-ring"],
+            "maps":[
+                {
+                    "name":"Overgrown Ruin Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Mud Geyser Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Wasteland Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Mesa Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Lookout Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Graveyard Map",
+                    "level0":2,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Peninsula Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Villa Map",
+                    "level0":2,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Pier Map",
+                    "level0":1,
+                    "level1":4,
+                    "level2":8,
+                    "level3":10,
+                    "level4":14
+                },
+                {
+                    "name":"Burial Chambers Map",
+                    "level0":0,
+                    "level1":6,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Lighthouse Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Crater Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Mineral Pools Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":14
+                },
+                {
+                    "name":"Scriptorium Map",
+                    "level0":0,
+                    "level1":5,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Promenade Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":16
+                },
+                {
+                    "name":"Factory Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":9,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Overgrown Shrine Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Vaal Temple Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":16
+                }
+            ]
+        },
+        {
+            "name":"Lira Arthain",
+            "tags":["bone-helm", "opal-ring"],
+            "maps":[
+                {
+                    "name":"Tower Map",
+                    "level0":5,
+                    "level1":9,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Geode Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Estuary Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Arachnid Tomb Map",
+                    "level0":4,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Defiled Cathedral Map",
+                    "level0":4,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Relic Chambers Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":11,
+                    "level4":14
+                },
+                {
+                    "name":"Toxic Sewer Map",
+                    "level0":3,
+                    "level1":7,
+                    "level2":10,
+                    "level3":12,
+                    "level4":15
+                },
+                {
+                    "name":"Ancient City Map",
+                    "level0":3,
+                    "level1":6,
+                    "level2":10,
+                    "level3":12,
+                    "level4":14
+                },
+                {
+                    "name":"Gardens Map",
+                    "level0":0,
+                    "level1":9,
+                    "level2":12,
+                    "level3":13,
+                    "level4":16
+                },
+                {
+                    "name":"Sepulchre Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Siege Map",
+                    "level0":0,
+                    "level1":8,
+                    "level2":11,
+                    "level3":13,
+                    "level4":15
+                },
+                {
+                    "name":"Desert Spring Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                },
+                {
+                    "name":"Colosseum Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":12,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Dark Forest Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":14,
+                    "level4":16
+                },
+                {
+                    "name":"Palace Map",
+                    "level0":0,
+                    "level1":0,
+                    "level2":0,
+                    "level3":0,
+                    "level4":15
+                }
+            ]
+        }
+    ]
+}

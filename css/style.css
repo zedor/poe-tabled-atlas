@@ -1,0 +1,164 @@
+:root {
+	--completed-color-map: #00cc00;
+	--hide-unobtainable: table-row;
+	--hide-completed: table-row;
+}
+
+.region-content {
+	width: 38%;
+	float: left;
+	margin-left: .16%;
+	margin-right: .16%;
+}
+
+.additional-content {
+	float: left;
+	width: 23%;
+	margin-left: .16%;
+	margin-right: .16%;
+}
+
+table, tr, td, th {
+	border-collapse:collapse;
+}
+
+th.table-collapse-icon
+{
+	cursor:pointer;
+	user-select: none;
+	width: 30px;
+}
+
+th.table-watchstone-socket, td.table-map-data, td.table-sum  {
+	width: 70px;
+}
+
+.table-watchstone-socket, .table-sum, .table-map-data, .table-collapse-icon {
+	text-align: center;
+}
+
+body {
+	background-color: #818b98 !important;
+}
+
+.mid-tier-class {
+	color: yellow;
+}
+
+.high-tier-class {
+	color: red;
+}
+
+.owned-amount-more {
+	color: #00cc00;
+}
+
+.completed-color-map{
+	color: var(--completed-color-map, #00cc00);
+}
+
+.owned-amount-zero {
+	color: #b3b3b3;
+}
+
+.smaller-font {
+	font-size: .9rem;
+}
+
+.selected-column {
+	/*font-weight: bold;*/
+	text-decoration: underline;
+	text-decoration-color: #808080;
+	user-select: none;
+}
+
+.table-regions, .cant-touch-this {
+	user-select: none;
+}
+
+.map-is-unobtainable {
+	display: var(--hide-unobtainable, table-row);
+}
+
+.map-is-completed {
+	display: var(--hide-completed, table-row);
+}
+
+.collapse-table, .cant-see-this {
+	display: none;
+}
+
+.bordered-columns {
+	border-right: 1px solid #dee2e6;
+}
+
+.marble-amulet {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Amulets/MarbleAmulet.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.opal-ring {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Rings/OpalRing.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.two-toned-boots {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.crystal-belt {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Belts/CrystalBelt.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.steel-ring {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Rings/AdamantineRing.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.two-toned-boots-3b {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots3B.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.two-toned-boots-2b {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots2B.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.vermillion-ring {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Rings/VermillionRing.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.convoking-wand {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/ConvokingWand.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.cerulean-ring {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Rings/CeruleanRing.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.blue-pearl-amulet {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Amulets/BluePearlAmulet.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.gripped-gloves {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GripGlovesBaseType.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.spiked-gloves {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SpikedGloves.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.fingerless-silk-gloves {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/FingerlessSilkGloves.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.vanguard-belt {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Belts/Belt7.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.bone-helm {
+	background: url(https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/BoneHelm.png?scale=1&w=1&h=1) no-repeat;
+}
+
+.icon {
+	display: inline-block;
+	background-size: 20px 20px;
+	height: 20px;
+	width: 20px;
+}
